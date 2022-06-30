@@ -27,7 +27,7 @@ function Deposit(){
     setBalance(Number(balance) + Number(amount));
     setShow(false);
     setStatus('');
-    ctx.users.push(Number(balance) + Number(amount));
+    ctx.users[0].balance += Number(amount));
   }
 
   function clearForm(){
